@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var baseRetangulo = parseFloat(prompt("Base do retângulo: "));
+        var alturaRetangulo = parseFloat(prompt("Altura do retângulo: "));
+        var areaRetangulo = baseRetangulo * alturaRetangulo;
+        alert("Área do retângulo: " + areaRetangulo);
+
+        var ladoQuadrado = parseFloat(prompt("Lado do quadrado: "));
+        var areaQuadrado = ladoQuadrado * ladoQuadrado;
+        alert("Área do quadrado: " + areaQuadrado);
+
+        var diagonalMaior = parseFloat(prompt("Diagonal maior do losango: "));
+        var diagonalMenor = parseFloat(prompt("Diagonal menor do losango: "));
+        var areaLosango = (diagonalMaior * diagonalMenor) / 2;
+        alert("Área do losango " + areaLosango);
+
+        var baseMaior = parseFloat(prompt("Base maior do trapézio: "));
+        var baseMenor = parseFloat(prompt("Base menor do trapézio: "));
+        var alturaTrapezio = parseFloat(prompt("Altura do trapézio: "));
+        var areaTrapezio = ((baseMaior + baseMenor) * alturaTrapezio) / 2;
+        alert("Área do trapézio: " + areaTrapezio);
+
+        var baseParalelogramo = parseFloat(prompt("Base do paralelogramo: "));
+        var alturaParalelogramo = parseFloat(prompt("Altura do paralelogramo: "));
+        var areaParalelogramo = baseParalelogramo * alturaParalelogramo;
+        alert("Área do Paralelogramo: " + areaParalelogramo);
+
+        var baseTriangulo = parseFloat(prompt("Base do triângulo: "));
+        var alturaTriangulo = parseFloat(prompt("Altura do triângulo: "));
+        var areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
+        alert("Área do Triângulo: " + areaTriangulo);
+
+        var raio = parseFloat(prompt("Valor do raio: "));
+        var areaCirculo = (raio * raio) * 3.14;
+        alert("Área do círculo: " + areaCirculo);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
